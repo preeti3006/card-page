@@ -1,0 +1,27 @@
+h1{
+  color: blue;
+}
+.container {
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px  10px greenyellow;
+}
+
+#img1 {
+  float: right;
+  height: 250px;
+  width: auto;
+}
+
+#img2 {
+  float: left;
+  height: 160px;
+  width: auto;
+}
+
+#img3 {
+  float: right;
+  height: 150px;
+  width: auto;
+}
