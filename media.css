@@ -1,0 +1,48 @@
+
+         .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }
+        /* order for arrange as u wish */
+        #box1{
+            background-color: aqua;
+            /* order: 4; */ 
+            
+        }
+        #box2{
+            background-color: blue;
+            /* order: -1;
+             */
+        }
+        #box3{
+            background-color: orange;
+            /* order: 6; */
+           
+        }
+        #box4{
+            background-color: brown;
+            /* order: -2; */
+            
+        }
+        /* media for dimenation  */
+        @media (min-width:500px) {
+            .container{
+                flex-direction:row;
+            }
+        }
+        @media (max-width:640px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+

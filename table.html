@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>student id</th>
+            <th>student name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>preeti</td>
+                <td>female</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>deveraj</td>
+                <td>male</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>shivam</td>
+                <td>male</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br>
+    <br>
+
+    <!-- rowspan=row call ,row ka badh karna spand karne and coloumspan mtlb coloum ko badh  -->
+
+    <table border="1">
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td rowspan="2">d</td>
+            <td>e</td>
+            <td>f</td>
+        </tr>
+        <tr>
+            <td>g</td>
+            <td>h</td>
+        </tr>
+        <tr>
+            <td colspan="3">i</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <table border="1">
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row3 Cell 1</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+            <th>no</th>
+            <th>name</th>
+            <th>position</th>
+            <th>salary</th>
+            <th>type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>preeti</td>
+                <td>student</td>
+                <td>2k</td>
+                <td rowspan="4">middle class</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>devraj</td>
+                <td>student</td>
+                <td>12k</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>babli</td>
+                <td>house wife</td>
+                <td>20k</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>lakshmi</td>
+                <td>govt.officer</td>
+                <td>50k</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>84k</td>
+            </tr>
+        </tfoot>
+
+    </table>
+         
+</body>
+</html>
